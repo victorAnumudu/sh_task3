@@ -1,0 +1,45 @@
+* {
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.todo_container {
+  width: 80%;
+  margin: auto;
+}
+
+form input[type="text"] {
+  padding: 10px;
+  border: 1px solid #000;
+  width: 70%;
+  min-width: 200px;
+}
+
+form input[type="submit"] {
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  border: 1px solid #000;
+  width: 25%;
+  min-width: 100px;
+}
+form input[type="submit"]:hover {
+  background-color: rgba(0, 0, 0, 0.856);
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+.heading {
+  text-transform: uppercase;
+}
+
+table {
+  border-collapse: collapse;
+}
+table td {
+  /* border: 1px solid #000; */
+  padding: 10px;
+}
